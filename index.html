@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookmarks</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for the bookmark cards */
+        .bookmark-card {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* Style for the link */
+        .bookmark-link {
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* Style for the link on hover */
+        .bookmark-link:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">My Bookmarks</h1>
+        <div class="row mt-4">
+            <!-- Add your bookmark cards here -->
+            <div class="col-md-4">
+                <div class="card bookmark-card">
+                    <div class="card-body">
+                        <h5 class="card-title">AWS Blog</h5>
+                        <p class="card-text">Read the latest AWS Blog posts.</p>
+                        <a href="https://aws.amazon.com/blogs/machine-learning/ai21-jurassic-1-foundation-model-is-now-available-on-amazon-sagemaker/" class="card-link bookmark-link">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bookmark-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Time - Demis Hassabis Interview</h5>
+                        <p class="card-text">Read the interview with Demis Hassabis on Time.</p>
+                        <a href="https://time.com/6246119/demis-hassabis-deepmind-interview/" class="card-link bookmark-link">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more bookmark cards as needed -->
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and jQuery for Bootstrap features -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
